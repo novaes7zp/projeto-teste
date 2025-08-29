@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Story+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+:root {
+    --font01: Verdana, Geneva, Tahoma, sans-serif;
+    --font02: "Caveat", cursive;
+    --font03: "Story Script", sans-serif;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: rgb(222, 222, 222);
+    font-family: var(--font01);
+}
+
+header {
+    background-image: url(../imagens/banner-amarelo-com-formas-de-linhas-azuis-e-meio-tom_1017-37531.avif);
+    color: white;
+    text-align: center;
+}
+header > h1 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-variant: small-caps;
+    font-size: 4.8vw;
+    text-shadow: 1px 2px 1px black;
+}
+
+span#aytr {
+    font-family: var(--font03);
+    font-size: 2em;
+}
+span#titulo {
+    color: rgb(33, 33, 255);
+}
+span#brasil {
+    color: rgb(255, 255, 28);
+}
+
+section {
+    padding-left: 30px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    font-size: 1.5em;
+    font-family: var(--font03);
+}
+section.normal {
+    background-color: white;
+    color: black;
+}
+section.imagem {
+    background-image: url(..//imagens/gettyimages-600969539-612x612.jpg);
+    background-position: right center;
+    background-size: cover;
+    background-color: rgb(60, 60, 60);
+    color: white;
+    background-attachment: fixed;
+}
