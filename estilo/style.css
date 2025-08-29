@@ -52,6 +52,9 @@ section {
     font-size: 1.5em;
     font-family: var(--font03);
 }
+section > p {
+    text-shadow: 1px 1px 0px black;
+}
 section.normal {
     background-color: white;
     color: black;
